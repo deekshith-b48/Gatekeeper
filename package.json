@@ -1,0 +1,13 @@
+{
+  "name": "gatekeeper",
+  "version": "1.0.0",
+  "description": "Zero-dependency API gateway: API-key auth, per-key rate limiting, reverse proxy.",
+  "type": "module",
+  "main": "src/gatekeeper.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "engines": { "node": ">=20" },
+  "license": "MIT"
+}
